@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rajbaba.smsapp">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".loginpage" />
+        <activity android:name=".Class_List" />
+        <activity android:name=".classlkg" />
+        <activity android:name=".classukg" />
+        <activity android:name=".class1" />
+        <activity android:name=".class2" />
+        <activity android:name=".class3" />
+        <activity android:name=".class4" />
+        <activity android:name=".class5" />
+        <activity android:name=".class6" />
+        <activity android:name=".class7" />
+        <activity android:name=".class8" />
+        <activity android:name=".class9" />
+        <activity android:name=".class10" />
+        <activity android:name=".nonteach" />
+        <activity android:name=".teach" />
+        <activity android:name=".Messagepage" />
+        <activity android:name=".password" />
+        <activity android:name=".msgall1" />
+        <activity android:name=".msgall2" />
+        <activity android:name=".msgall3" />
+        <activity android:name=".msgall4" />
+        <activity android:name=".msgall5" />
+        <activity android:name=".msgall6" />
+        <activity android:name=".msgall7" />
+        <activity android:name=".msgall8" />
+        <activity android:name=".msgall9" />
+        <activity android:name=".msgall10" />
+        <activity android:name=".msgalllkg" />
+        <activity android:name=".msgallukg" />
+        <activity android:name=".msgallnon" />
+        <activity android:name=".msgallteach" />
+        <activity android:name=".messageindi"></activity>
+    </application>
+
+</manifest>

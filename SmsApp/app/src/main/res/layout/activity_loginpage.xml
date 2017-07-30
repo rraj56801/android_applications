@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/log"
+    tools:context="com.example.rajbaba.smsapp.loginpage">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:id="@+id/linearLayout6">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
+            android:layout_gravity="center_horizontal"
+            android:hint="Username"
+            android:textSize="30dp"
+            android:singleLine="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:ems="15"
+            android:id="@+id/passwordsss"
+            android:hint="Password"
+            android:textSize="25dp"
+            android:singleLine="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:ems="15"
+            android:id="@+id/confirmpasswordsss"
+            android:singleLine="true"
+            android:textSize="25dp"
+            android:hint="Confirm Password" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/otp"
+            android:hint="VERIFICATION CODE"
+            android:textSize="25dp"
+            android:singleLine="true"
+            android:password="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="*Use same verification code for further use"
+            android:id="@+id/textView21"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/linearLayout6"
+            android:layout_below="@+id/linearLayout6"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="         LOG IN PAGE"
+        android:id="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textSize="35dp"
+        android:layout_marginLeft="-20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New User "
+        android:id="@+id/newuser"
+        android:textSize="20dp"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="0dp"
+        android:layout_alignTop="@+id/btnf"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="USER LOGIN"
+        android:id="@+id/login"
+        android:textSize="30dp"
+        android:background="@android:color/transparent"
+        style="@style/Base.Animation.AppCompat.Dialog"
+        android:layout_marginLeft="-120dp"
+        android:layout_below="@+id/linearLayout6"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="@style/Base.Animation.AppCompat.Dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXIT "
+        android:id="@+id/button17"
+        android:textSize="30dp"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/btnrev" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password"
+        android:id="@+id/btnf"
+        android:background="@android:color/transparent"
+        android:textSize="20dp"
+        android:layout_above="@+id/button17"
+        android:layout_alignEnd="@+id/button17" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHARE"
+        android:id="@+id/btnrev"
+        android:layout_alignTop="@+id/button17"
+        android:layout_alignEnd="@+id/newuser"
+        android:background="@android:color/transparent"
+        android:textSize="25dp"
+        android:textColor="#dc1adc" />
+
+</RelativeLayout>
